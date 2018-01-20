@@ -22,11 +22,11 @@ class NavBar extends Component {
       <header className="lpa-cardview-header">
         <nav>
           <div className="pure-g">
-            <div className="pure-u-1-5">
+            <div className="pure-u-1 pure-u-md-1-5">
               <p className="lpa-cardview-brand">LowPolyArts</p>
             </div>
-            <div className="pure-u-3-5" />
-            <div className="pure-u-1-5">
+            <div className="pure-u-md-3-5" />
+            <div className="pure-u-1 pure-u-md-1-5">
               <div>
                 <input
                   type="text"

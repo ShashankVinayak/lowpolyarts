@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../css/homeview.css";
 
+/* Displays background image and  author text */
 class HomeView extends Component {
   render() {
     return (

@@ -1,5 +1,6 @@
 .lpa-cardview-card-img-container {
   position: relative;
+
   width: 100%;
 }
 
@@ -17,11 +18,10 @@
 
 .lpa-cardview-card-img-hover {
   position: absolute;
-
-  width: 100%;
-
   bottom:40%;
   left:0;
+
+  width: 100%;
 }
 
 .lpa-cardview-card-img-hover-text {

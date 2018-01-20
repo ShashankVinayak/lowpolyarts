@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Image from "../Image4.jpg";
+import Image from "../images/Image4.jpg";
 import "../css/cardimage.css";
 
 class CardImage extends Component {
