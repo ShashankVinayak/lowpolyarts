@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "image": {
+        "url": "../images/Image4.jpg"
+      },
+      "name": {
+        "modelname": "elephant"
+      }
+    }
+  ]
+}
