@@ -9,6 +9,7 @@ class CardImage extends Component {
     };
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave = this.handleMouseLeave.bind(this);
+    this.imageName = this.props.image.name;
   }
 
   handleMouseEnter() {
@@ -43,7 +44,7 @@ class CardImage extends Component {
       >
         <img
           className="pure-img lpa-cardview-card-img"
-          src={require('../images/Image4.jpg')}
+          src={require("../images/"+this.imageName+".jpg")}
         />
         {hoverElement}
       </div>

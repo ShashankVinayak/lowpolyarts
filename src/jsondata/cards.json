@@ -2,10 +2,34 @@
   "cards": [
     {
       "image": {
-        "url": "../images/Image4.jpg"
+        "name": "Image1"
       },
-      "name": {
-        "modelname": "elephant"
+      "model": {
+        "name": "elephant"
+      }
+    },
+    {
+      "image": {
+        "name": "Image2"
+      },
+      "model": {
+        "name": "elephant2"
+      }
+    },
+    {
+      "image": {
+        "name": "Image3"
+      },
+      "model": {
+        "name": "elephant3"
+      }
+    },
+    {
+      "image": {
+        "name": "Image4"
+      },
+      "model": {
+        "name": "elephant4"
       }
     }
   ]
