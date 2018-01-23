@@ -45,6 +45,7 @@ class CardImage extends Component {
         <img
           className="pure-img lpa-cardview-card-img"
           src={require("../images/"+this.imageName+".jpg")}
+          alt={this.imageName} 
         />
         {hoverElement}
       </div>

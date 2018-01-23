@@ -82,7 +82,7 @@ class CardViewContent extends Component {
     let cardComponentListLength = cardComponentList.length;
     let cardViewContentList = this.getCardList(cardComponentListLength);
     while(i < cardComponentListLength){
-      cardViewContent = ( <div className="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3"> {cardComponentList[i]} </div> );
+      cardViewContent = ( <div className="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3" key={i.toString()}> {cardComponentList[i]} </div> );
       cardViewContentList[i].push(cardViewContent);
       i = i + 1;
     }
