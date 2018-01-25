@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HomeView from "./HomeView";
 import CardView from "./CardView";
+import ModelView from "./ModelView";
 
 /* HomeScreen disappear after 2500ms */
 /* Component state is used to determine when to disappear HomeScreen */
@@ -27,7 +28,7 @@ class App extends Component {
     if (this.state.homescreen) {
       return <HomeView />;
     } else {
-      return <CardView />;
+      return <ModelView />;
     }
   }
 }

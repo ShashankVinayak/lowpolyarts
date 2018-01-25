@@ -1,0 +1,51 @@
+.lpa-modelfiles {
+  margin: 0.25%;
+  padding: 0.5%;
+}
+
+.lpa-modelfiles-files-container {
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-right: 3%;
+
+  border-radius: 30px;
+
+  box-shadow: 0 0 3px 1px #dddddd;
+
+  background-color: #f6f6f6;
+}
+
+.lpa-modelfiles-files-header-container {
+  /* margin: 1% 37% 1% 37%; */
+
+  /* border-radius: 15px; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  /* box-shadow: 0 0 2px 0.5px #cccccc; */
+
+  background-color: #eeeeee;
+}
+
+.lpa-modelfiles-files-header {
+  margin: 0;
+  padding: 1% 0 1% 0;
+
+  font-size: 180%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+
+  color: #555555;
+}
+
+.lpa-modelfiles-files-btn-container {
+  margin: 2% 0 1% 0;
+  padding: 2%;
+}
+
+.lpa-modelfiles-files-btn {
+  margin: 3% 5%;
+  padding: 3%;
+  width: 90%;
+  border-radius: 15px;
+}
