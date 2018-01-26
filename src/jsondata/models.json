@@ -1,0 +1,48 @@
+{
+  "models": {
+    "elephant": {
+      "modelname": "elephant",
+      "viewerload": {
+        "path": "../lowpolys/elephant/viewer/",
+        "filename": "lowpolyelephant",
+        "extension": "json",
+        "options": ["autorotate", "show_fps"]
+      },
+      "image": {
+        "path": "lowpolys/elephant/images/",
+        "files": ["Image1", "Image2", "Image3", "Image4"],
+        "extension": "jpg"
+      },
+      "modelfile": {
+        "path": "lowpolys/elephant/modelfiles",
+        "files": [
+          {
+            "name": "elephant_collada",
+            "extension": "dae"
+          },
+          {
+            "name": "elephant_3ds",
+            "extension": "3ds"
+          },
+          {
+            "name": "elephant_fbx",
+            "extension": "fbx"
+          },
+          {
+            "name": "elephant_obj",
+            "extension": "obj"
+          },
+          {
+            "name": "elephant_stl",
+            "extension": "stl"
+          },
+          {
+            "name": "elephant_blend",
+            "extension": "blend"
+          }
+        ],
+        "extension": "zip"
+      }
+    }
+  }
+}

@@ -1,11 +1,46 @@
 {
   "cards": [
     {
+      "id": "elephant",
       "image": {
-        "name": "Elephant"
+        "path": "lowpolys/elephant/images/",
+        "name": "Image3",
+        "extension": "jpg"
       },
       "model": {
         "name": "elephant"
+      }
+    },
+    {
+      "id": "elephant",
+      "image": {
+        "path": "lowpolys/elephant/images/",
+        "name": "Image2",
+        "extension": "jpg"
+      },
+      "model": {
+        "name": "elephant1"
+      }
+    },
+    {
+      "id": "elephant",
+      "image": {
+        "path": "lowpolys/elephant/images/",
+        "name": "Image1",
+        "extension": "jpg"
+      },
+      "model": {
+        "name": "elephant2"
+      }
+    },{
+      "id": "elephant",
+      "image": {
+        "path": "lowpolys/elephant/images/",
+        "name": "Image4",
+        "extension": "jpg"
+      },
+      "model": {
+        "name": "elephant3"
       }
     }
   ]

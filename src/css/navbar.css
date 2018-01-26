@@ -19,6 +19,10 @@
   color: #f6f6f6;
 }
 
+.lpa-cardview-brand:hover{
+  cursor: pointer;
+}
+
 .lpa-cardview-search-bar {
   margin: 3% 8%;
   padding: 2%;

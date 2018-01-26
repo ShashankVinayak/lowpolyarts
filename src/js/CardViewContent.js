@@ -32,6 +32,12 @@ class CardViewContent extends Component {
     this.state = {
       cardviewcontent: this.cardViewContentList
     };
+
+    this.handleCardClickCVC = this.handleCardClickCVC.bind(this);
+  }
+
+  handleCardClickCVC(modelName){
+    this.props.onCardClickCV(modelName);
   }
 
   errorHandler(msg) {
@@ -90,7 +96,7 @@ class CardViewContent extends Component {
     while (j < jsonCardsListLength) {
       i = i % cardComponentListLength;
       cardComponent = (
-        <Card cards={jsonCardsList[j]} key={jsonCardsList[j].model.name} />
+        <Card cards={jsonCardsList[j]} key={jsonCardsList[j].model.name} onCardClickCVC={this.handleCardClickCVC} />
       );
       cardComponentList[i].push(cardComponent);
       i = i + 1;

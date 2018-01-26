@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HomeView from "./HomeView";
-import CardView from "./CardView";
-import ModelView from "./ModelView";
+import ViewController from "./ViewContoller";
 
 /* HomeScreen disappear after 2500ms */
 /* Component state is used to determine when to disappear HomeScreen */
@@ -10,25 +9,43 @@ class App extends Component {
     super(props);
     this.state = {
       /* Uncomment for production */
-      /* homescreen: true */
-      homescreen: false
+      homescreen: true,
+      bnclicked: false
+      /* homescreen: false */
     };
+
+    this.handleBrandNameClickA = this.handleBrandNameClickA.bind(this);
   }
 
   /* Uncomment for production */
-/*   componentDidMount() {
+  componentDidMount() {
     setTimeout(() => {
       this.setState({
         homescreen: false
       });
     }, 2500);
-  } */
+  }
+
+  handleBrandNameClickA(){
+    this.setState({
+      homescreen: true,
+      bnclicked: true
+    });
+  }
 
   render() {
     if (this.state.homescreen) {
+      if(this.state.bnclicked){
+        setTimeout(() => {
+          this.setState({
+            homescreen: false,
+            bnclicked: false
+          });
+        }, 2500);
+      }
       return <HomeView />;
     } else {
-      return <ModelView />;
+      return <ViewController onBrandNameClickA={this.handleBrandNameClickA} />;
     }
   }
 }

@@ -4,12 +4,25 @@ import "../css/cardimage.css";
 class CardImage extends Component {
   constructor(props) {
     super(props);
+
+    this.image = "";
+
+    this.imagePath = this.props.image.path;
+    this.imageName = this.props.image.name;
+    this.imageExtension = this.props.image.extension;
+
     this.state = {
-      hover: false
+      hover: false,
+      imgsrc : this.image
     };
+
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave = this.handleMouseLeave.bind(this);
-    this.imageName = this.props.image.name;
+    this.handleCardClickCI = this.handleCardClickCI.bind(this);
+  }
+
+  getImageSRC(){
+    return this.imagePath + "" + this.imageName + "." + this.imageExtension;
   }
 
   handleMouseEnter() {
@@ -22,6 +35,21 @@ class CardImage extends Component {
     this.setState({
       hover: false
     });
+  }
+
+  handleCardClickCI(){
+    this.props.onCardClickC();
+  }
+
+  renderImage(){
+    this.image = this.getImageSRC();
+    this.setState({
+      imgsrc: this.image
+    });
+  }
+
+  componentDidMount(){
+    this.renderImage();
   }
 
   render() {
@@ -41,10 +69,11 @@ class CardImage extends Component {
         className="lpa-cardview-card-img-container"
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
+        onClick={this.handleCardClickCI}
       >
         <img
           className="pure-img lpa-cardview-card-img"
-          src={require("../images/"+this.imageName+".jpg")}
+          src={this.state.imgsrc}
           alt={this.imageName} 
         />
         {hoverElement}
