@@ -15,10 +15,11 @@ class App extends Component {
     };
 
     this.handleBrandNameClickA = this.handleBrandNameClickA.bind(this);
+    this.handleImageLoadA = this.handleImageLoadA.bind(this);
   }
 
   /* Uncomment for production */
-  componentDidMount() {
+  handleImageLoadA(){
     setTimeout(() => {
       this.setState({
         homescreen: false
@@ -43,7 +44,7 @@ class App extends Component {
           });
         }, 2500);
       }
-      return <HomeView />;
+      return <HomeView onImageLoadA={this.handleImageLoadA}/>;
     } else {
       return <ViewController onBrandNameClickA={this.handleBrandNameClickA} />;
     }
