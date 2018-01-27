@@ -34,3 +34,29 @@
 
   background-color: #f6f6f6;
 }
+
+@media screen and (max-width: 47.99em) {
+  .lpa-cardview-brand {
+    margin: 0.6%;
+    padding-left: 1%;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190%;
+  
+    color: #f6f6f6;
+  }
+}
+
+@media screen and (max-width: 35.4em) {
+  .lpa-cardview-brand {
+    margin: 0.6% auto;
+    padding-left: 1%;
+
+    width:42.5%;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 175%;
+  
+    color: #f6f6f6;
+  }
+}

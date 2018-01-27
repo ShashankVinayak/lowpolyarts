@@ -46,3 +46,30 @@
 
   border-radius: 15px;  
 }
+
+@media screen and (max-width: 63.99em) {
+  .lpa-modelimage-imgs-container {
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+  
+    border-radius: 30px;
+  
+    box-shadow: 0 0 5px 1px #dddddd;
+  
+    background-color: #f6f6f6;
+  }
+}
+
+@media screen and (max-width: 35.4em) {
+  .lpa-modelimage-img-header{
+    margin: 0;
+    padding: 1%;
+  
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+  
+    color: #555555;
+  }
+}

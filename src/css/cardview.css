@@ -5,3 +5,21 @@
 .lpa-cardview-content-container {
   padding-top: 4%;
 }
+
+@media screen and (max-width: 63.99em) {
+  .lpa-cardview-content-container {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 47.99em) {
+  .lpa-cardview-content-container {
+    padding-top: 6%;
+  }
+}
+
+@media screen and (max-width: 35.4em) {
+  .lpa-cardview-content-container {
+    padding-top: 11%;
+  }
+}

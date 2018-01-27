@@ -6,3 +6,15 @@
 .lpa-cardview-cardlist {
   margin: 1% 3% 0 3%;
 }
+
+@media screen and (max-width: 63.99em) {
+  .lpa-cardview-cardlist {
+    margin: 1% 2% 0 2%;
+  }
+}
+
+@media screen and (max-width: 47.99em) {
+  .lpa-cardview-cardlist {
+    margin: 1% 1% 0 1%;
+  }
+}

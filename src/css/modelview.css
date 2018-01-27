@@ -3,5 +3,23 @@
 }
 
 .lpa-modelview-content-container {
-  padding-top: 4%;
+  padding-top: 4.5%;
+}
+
+@media screen and (max-width: 63.99em) {
+  .lpa-modelview-content-container {
+    padding-top: 6%;
+  }
+}
+
+@media screen and (max-width: 47.99em) {
+  .lpa-modelview-content-container {
+    padding-top: 8%;
+  }
+}
+
+@media screen and (max-width: 35.4em) {
+  .lpa-modelview-content-container {
+    padding-top: 12%;
+  }
 }
