@@ -59,12 +59,12 @@
   }
 }
 
-@media screen and (max-width: 35.4em) {
+@media screen and (max-width: 26.5em) {
   .lpa-cardview-brand {
     margin: 1% auto;
-    padding-left: 1%;
+    padding-left: 0;
 
-    width:42.5%;
+    width:56%;
   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 190%;
@@ -73,15 +73,29 @@
   }
 }
 
-@media screen and (max-width: 23em) {
+@media screen and (max-width: 23.5em) {
   .lpa-cardview-brand {
-    margin: 1% auto;
-    padding-left: 1%;
+    margin: 0.5% auto;
+    padding-left: 0;
 
-    width:55%;
+    width:60%;
   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 185%;
+    font-size: 180%;
+  
+    color: #f6f6f6;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .lpa-cardview-brand {
+    margin: 0.5% auto;
+    padding-left: 0;
+
+    width:65%;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 175%;
   
     color: #f6f6f6;
   }

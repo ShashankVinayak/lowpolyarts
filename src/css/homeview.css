@@ -28,6 +28,20 @@
   margin:0;
   padding-bottom: 1%;
 
+  color: #ECF0F1;
+
   font-size: 120%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 26.5em) {
+  .lpa-homeview-footer {
+    margin:0;
+    padding-bottom: 1%;
+  
+    color: #ECF0F1;
+  
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 }

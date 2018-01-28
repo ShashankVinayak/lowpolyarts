@@ -36,7 +36,9 @@ class NavBar extends Component {
                 className="lpa-cardview-brand"
                 onClick={this.handleBrandNameClickNB}
               >
-                <span className="lpa-cardview-brandname-red">LOW</span><span className="lpa-cardview-brandname-green">POLY</span><span className="lpa-cardview-brandname-blue">ARTS</span>
+                <span className="lpa-cardview-brandname-red">LOW</span>
+                <span className="lpa-cardview-brandname-green">POLY</span>
+                <span className="lpa-cardview-brandname-blue">ARTS</span>
               </p>
             </div>
             <div className="pure-u-md-3-5" />

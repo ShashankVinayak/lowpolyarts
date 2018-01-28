@@ -7,7 +7,7 @@ class ModelImage extends Component {
     super(props);
 
     this.imageElementList = [];
-    this.modelName = "elephant";
+    /* this.modelName = "elephant"; */
     this.image = this.props.info.image;
     /* this.image = ModelsJSON.models[this.modelName].image; */
 
