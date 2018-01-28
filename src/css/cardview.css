@@ -23,3 +23,9 @@
     padding-top: 11%;
   }
 }
+
+@media screen and (max-width: 23em) {
+  .lpa-cardview-content-container {
+    padding-top: 13%;
+  }
+}

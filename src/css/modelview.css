@@ -23,3 +23,9 @@
     padding-top: 12%;
   }
 }
+
+@media screen and (max-width: 23em) {
+  .lpa-modelview-content-container {
+    padding-top: 14.5%;
+  }
+}

@@ -64,7 +64,33 @@
   }
 }
 
+@media screen and (max-width: 47.99em) {
+  .lpa-modelfiles-files-container {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+    border-radius: 30px;
+  
+    box-shadow: 0 0 3px 1px #dddddd;
+  
+    background-color: #f6f6f6;
+  }
+}
+
 @media screen and (max-width: 35.4em) {
+  .lpa-modelfiles-files-container {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+  
+    border-radius: 30px;
+  
+    box-shadow: 0 0 3px 1px #dddddd;
+  
+    background-color: #f6f6f6;
+  }
+
   .lpa-modelfiles-files-header {
     margin: 0;
     padding: 1% 0 1% 0;

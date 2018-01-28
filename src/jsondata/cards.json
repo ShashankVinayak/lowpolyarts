@@ -4,7 +4,7 @@
       "id": "elephant",
       "image": {
         "path": "lowpolys/elephant/images/",
-        "name": "Image3",
+        "name": "elephant3",
         "extension": "jpg"
       },
       "model": {
@@ -15,7 +15,7 @@
       "id": "elephant",
       "image": {
         "path": "lowpolys/elephant/images/",
-        "name": "Image2",
+        "name": "elephant1",
         "extension": "jpg"
       },
       "model": {
@@ -26,7 +26,7 @@
       "id": "elephant",
       "image": {
         "path": "lowpolys/elephant/images/",
-        "name": "Image1",
+        "name": "elephant2",
         "extension": "jpg"
       },
       "model": {
@@ -36,7 +36,7 @@
       "id": "elephant",
       "image": {
         "path": "lowpolys/elephant/images/",
-        "name": "Image4",
+        "name": "elephant4",
         "extension": "jpg"
       },
       "model": {

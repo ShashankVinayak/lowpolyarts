@@ -61,7 +61,33 @@
   }
 }
 
+@media screen and (max-width: 47.99em) {
+  .lpa-modelimage-imgs-container {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-bottom: 1%;
+  
+    border-radius: 30px;
+  
+    box-shadow: 0 0 5px 1px #dddddd;
+  
+    background-color: #f6f6f6;
+  }
+}
+
 @media screen and (max-width: 35.4em) {
+  .lpa-modelimage-imgs-container {
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    padding-bottom: 1%;
+  
+    border-radius: 30px;
+  
+    box-shadow: 0 0 5px 1px #dddddd;
+  
+    background-color: #f6f6f6;
+  }
+
   .lpa-modelimage-img-header{
     margin: 0;
     padding: 1%;

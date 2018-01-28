@@ -10,31 +10,27 @@
       },
       "image": {
         "path": "lowpolys/elephant/images/",
-        "files": ["Image1", "Image2", "Image3", "Image4"],
+        "files": ["elephant1", "elephant2", "elephant4", "elephant5"],
         "extension": "jpg"
       },
       "modelfile": {
-        "path": "lowpolys/elephant/modelfiles",
+        "path": "lowpolys/elephant/modelfiles/",
         "files": [
           {
-            "name": "elephant_collada",
-            "extension": "dae"
+            "name": "elephant_fbx",
+            "extension": "fbx"
           },
           {
             "name": "elephant_3ds",
             "extension": "3ds"
           },
           {
-            "name": "elephant_fbx",
-            "extension": "fbx"
-          },
-          {
             "name": "elephant_obj",
             "extension": "obj"
           },
           {
-            "name": "elephant_stl",
-            "extension": "stl"
+            "name": "elephant_collada",
+            "extension": "dae"
           },
           {
             "name": "elephant_blend",
