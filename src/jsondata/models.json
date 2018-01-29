@@ -6,7 +6,7 @@
         "path": "../lowpolys/elephant/viewer/",
         "filename": "lowpolyelephant",
         "extension": "json",
-        "options": ["autorotate", "show_fps"]
+        "options": ["autorotate"]
       },
       "image": {
         "path": "lowpolys/elephant/images/",
@@ -21,20 +21,20 @@
             "extension": "fbx"
           },
           {
-            "name": "elephant_3ds",
-            "extension": "3ds"
+            "name": "elephant_blend",
+            "extension": "blend"
           },
           {
             "name": "elephant_obj",
             "extension": "obj"
           },
           {
-            "name": "elephant_collada",
-            "extension": "dae"
+            "name": "elephant_3ds",
+            "extension": "3ds"
           },
           {
-            "name": "elephant_blend",
-            "extension": "blend"
+            "name": "elephant_collada",
+            "extension": "dae"
           }
         ],
         "extension": "zip"

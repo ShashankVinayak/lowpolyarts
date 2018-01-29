@@ -13,7 +13,7 @@
 
 .lpa-cardview-card-img-container:hover {
   cursor: pointer;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .lpa-cardview-card-img-hover {
@@ -30,11 +30,11 @@
 
   font-size: 125%;
 
-  border: 1px solid #111111;
+  border: 1px solid #0e1419;
   border-radius: 3px;
 
-  color: #f6f6f6;
-  background-color: #333333;
+  color: #f6f8f8;
+  background-color: #2c3e50;
 }
 
 @media screen and (max-width: 35.4em) {
@@ -44,11 +44,11 @@
   
     font-size: 105%;
   
-    border: 1px solid #111111;
+    border: 1px solid #0e1419;
     border-radius: 3px;
   
-    color: #f6f6f6;
-    background-color: #333333;
+    color: #f6f8f8;
+    background-color: #2c3e50;
   }
 }
 
@@ -59,10 +59,10 @@
   
     font-size: 88%;
   
-    border: 1px solid #111111;
+    border: 1px solid #0e1419;
     border-radius: 3px;
   
-    color: #f6f6f6;
-    background-color: #333333;
+    color: #f6f8f8;
+    background-color: #2c3e50;
   }
 }

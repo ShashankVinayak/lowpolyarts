@@ -10,21 +10,16 @@
 
   border-radius: 30px;
 
-  box-shadow: 0 0 3px 1px #dddddd;
+  box-shadow: 0 0 3px 1px #cfd9db;
 
-  background-color: #f6f6f6;
+  background-color: #ecf0f1;
 }
 
 .lpa-modelfiles-files-header-container {
-  /* margin: 1% 37% 1% 37%; */
-
-  /* border-radius: 15px; */
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 
-  /* box-shadow: 0 0 2px 0.5px #cccccc; */
-
-  background-color: #eeeeee;
+  background-color: #2c3e50;
 }
 
 .lpa-modelfiles-files-header {
@@ -35,7 +30,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 600;
 
-  color: #555555;
+  color: #f6f8f8;
 }
 
 .lpa-modelfiles-files-btn-container {
@@ -48,6 +43,10 @@
   padding: 3%;
   width: 90%;
   border-radius: 15px;
+
+  color: #f6f8f8;
+
+  background-color: #2c3e50;
 }
 
 @media screen and (max-width: 63.99em) {
@@ -58,9 +57,9 @@
   
     border-radius: 30px;
   
-    box-shadow: 0 0 3px 1px #dddddd;
+    box-shadow: 0 0 3px 1px #cfd9db;
   
-    background-color: #f6f6f6;
+    background-color: #ecf0f1;
   }
 }
 
@@ -72,9 +71,9 @@
   
     border-radius: 30px;
   
-    box-shadow: 0 0 3px 1px #dddddd;
+    box-shadow: 0 0 3px 1px #cfd9db;
   
-    background-color: #f6f6f6;
+    background-color: #ecf0f1;
   }
 }
 
@@ -86,9 +85,9 @@
   
     border-radius: 30px;
   
-    box-shadow: 0 0 3px 1px #dddddd;
+    box-shadow: 0 0 3px 1px #cfd9db;
   
-    background-color: #f6f6f6;
+    background-color: #ecf0f1;
   }
 
   .lpa-modelfiles-files-header {
@@ -99,6 +98,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
   
-    color: #555555;
+    color: #f6f8f8;
   }
 }

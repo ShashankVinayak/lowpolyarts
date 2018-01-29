@@ -10,38 +10,6 @@
       "model": {
         "name": "elephant"
       }
-    },
-    {
-      "id": "elephant",
-      "image": {
-        "path": "lowpolys/elephant/images/",
-        "name": "elephant1",
-        "extension": "jpg"
-      },
-      "model": {
-        "name": "elephant1"
-      }
-    },
-    {
-      "id": "elephant",
-      "image": {
-        "path": "lowpolys/elephant/images/",
-        "name": "elephant2",
-        "extension": "jpg"
-      },
-      "model": {
-        "name": "elephant2"
-      }
-    },{
-      "id": "elephant",
-      "image": {
-        "path": "lowpolys/elephant/images/",
-        "name": "elephant4",
-        "extension": "jpg"
-      },
-      "model": {
-        "name": "elephant3"
-      }
     }
   ]
 }
